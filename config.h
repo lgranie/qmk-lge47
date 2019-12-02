@@ -6,8 +6,8 @@
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x0000
 #define DEVICE_VER      0x0003
-#define MANUFACTURER    nglgzz
-#define PRODUCT         42
+#define MANUFACTURER    lge
+#define PRODUCT         bm43a-lge
 #define DESCRIPTION     BT
 
 /* key matrix size */
