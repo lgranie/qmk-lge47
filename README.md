@@ -16,7 +16,7 @@ git clone https://github.com/qmk/qmk_firmware.git
 
 cd qmk-firmware
 
-git submodule add https://github.com/lgranie/qmk-bm43a-lge.git keyboards/bm43a-lge
+git submodule add https://github.com/lgranie/qmk-bm43a-lge.git keyboards/bm43a_lge
 make git-submodule
 
 make bm43a-lge:default
