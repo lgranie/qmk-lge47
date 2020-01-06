@@ -20,5 +20,5 @@ git submodule add https://github.com/lgranie/qmk-bm43a-lge.git keyboards/bm43a_l
 
 make git-submodule
 
-make bm43a-lge:default
+make bm43a_lge:default
 
