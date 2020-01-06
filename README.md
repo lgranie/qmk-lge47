@@ -8,7 +8,7 @@ The keyset layout is insprired by an YMDK 40% layout find on Aliexpress (https:/
 
 # Installation
 
-git clone https://github.com/qmk/qmk-firmware.git
+git clone https://github.com/qmk/qmk_firmware.git
 
 cd qmk-firmware
 
