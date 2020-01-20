@@ -1,12 +1,12 @@
 {
-    "keyboard_name": "BM43A",
+    "keyboard_name": "YMDK42",
     "url": "",
     "maintainer": "qmk",
     "width": 12,
     "height": 4,
     "layouts": {
         "LAYOUT": {
-            "key_count": 43,
+            "key_count": 42,
             "layout": [
                 {"label":"K00 (D1,B0)", "x":0, "y":0},
                 {"label":"K01 (D1,F5)", "x":1, "y":0},

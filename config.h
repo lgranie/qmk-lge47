@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x0000
 #define DEVICE_VER      0x0003
 #define MANUFACTURER    LGe
-#define PRODUCT         bm43a-lge
+#define PRODUCT         ymdk42_lge
 #define DESCRIPTION     BT
 
 /* key matrix size */

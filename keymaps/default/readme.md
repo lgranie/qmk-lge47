@@ -1,1 +1,1 @@
-# The default keymap for bm43a
+# The default keymap for ymdk42_lge
