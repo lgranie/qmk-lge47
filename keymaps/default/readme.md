@@ -1,1 +1,1 @@
-# The default keymap for ymdk42_lge
+# The default keymap for lge42

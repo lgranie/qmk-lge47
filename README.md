@@ -1,4 +1,4 @@
-# qmk-ymdk42-lge
+# qmk-lge42
 
 It's a 40% keyboard using an Adafruit Feather 32u4 Bluefruit LE (https://learn.adafruit.com/adafruit-feather-32u4-bluefruit-le/overview).
 
@@ -16,9 +16,9 @@ git clone https://github.com/qmk/qmk_firmware.git
 
 cd qmk-firmware
 
-git submodule add https://github.com/lgranie/qmk-ymdk42-lge.git keyboards/ymdk42_lge
+git submodule add https://github.com/lgranie/qmk-lge42.git keyboards/handwired/lge42
 
 make git-submodule
 
-make ymdk42_lge:default
+make handwired/lge42:default
 
