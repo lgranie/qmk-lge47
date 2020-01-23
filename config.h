@@ -42,7 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
 */
 #define MATRIX_COL_PINS { F7, F6, F5, F4, F1, F0, D7, B5, B6, B7, D6, C7 }
-#define MATRIX_ROW_PINS { D0, D1, D2, D3 }
+#define MATRIX_ROW_PINS { D2, D3, D1, D0 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */
