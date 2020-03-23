@@ -30,20 +30,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
   /* Keymap _FL: (Function Left Layer) Left Layer
    * ,-----------------------------------------------.
-   * | ~ | ! | @ | # | $ | % | ^ | & | * | ( | ) |   |
+   * | ~ | ! | @ | # | $ | % | ^ | & | * | ( | ) |Del|
    * |-----------------------------------------------|
    * |    |F1 |F2 |F3 |   |   |   | { | } | + |      |
    * |-----------------------------------------------|
    * |       |F4 |F5 |F6 |Del|End|   | ; | " | | | - |
    * |-----------------------------------------------|
-   * |   |   |   |          |        |   |   |   |   |
+   * |   |   |   |          |        |   |USB|RST| BT|
    * `-----------------------------------------------'
    */
     [_FL] = LAYOUT(
-      KC_TILD, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, _______,
+      KC_TILD, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,  KC_DEL,
       _______,   KC_F1,   KC_F2,   KC_F3, BL_STEP, _______, _______, KC_LCBR, KC_RCBR, _______,      _______,
-      _______,   KC_F4,   KC_F5,   KC_F6, RGB_HUD, RGB_SAI, RGB_SAD, KC_SCLN, KC_DQUO, KC_PIPE, KC_MINS,
-      _______, _______, _______,               _______,             _______,  _______, _______, _______
+      _______,   KC_F4,   KC_F5,   KC_F6, KC_DEL, KC_END, _______, KC_SCLN, KC_DQUO, KC_PIPE, KC_MINS,
+      _______, _______, _______,               _______,             _______,  OUT_USB, RESET, OUT_BT
     ),
   /* Keymap _FR: (Function Right Layer) Right Layer
    * ,-----------------------------------------------.
