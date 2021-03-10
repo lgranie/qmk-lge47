@@ -20,12 +20,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0000
-#define DEVICE_VER      0x0003
+#define VENDOR_ID       0x1603
+#define PRODUCT_ID      0x6662
+#define DEVICE_VER      0x0001
 #define MANUFACTURER    LGe
-#define PRODUCT         lge42
-#define DESCRIPTION     BT
+#define PRODUCT         LGe47
+#define DESCRIPTION     LGe 47 keys with BT
 
 /* key matrix size */
 #define MATRIX_ROWS 4
@@ -41,8 +41,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_COL_PINS { F7, F6, F5, F4, F1, F0, D7, B5, B6, B7, D6, C7 }
-#define MATRIX_ROW_PINS { D2, D3, D1, D0 }
+#define MATRIX_COL_PINS { D7, B5, B6, B7, D6, C7, B1, F0, F1, F4, F5, F6 }
+#define MATRIX_ROW_PINS { D3, D2, B3, B2 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */
@@ -56,7 +56,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-//#define TAPPING_TERM 100
+#define TAPPING_TERM 100
 
 /* disable debug print */
 //#define NO_DEBUG

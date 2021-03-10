@@ -1,10 +1,6 @@
-# qmk-lge42
+# qmk-lge47
 
-It's a 40% keyboard using an Adafruit Feather 32u4 Bluefruit LE (https://learn.adafruit.com/adafruit-feather-32u4-bluefruit-le/overview).
-
-For the case, I'm using a Daisy 40% case from Aliexpress (https://fr.aliexpress.com/item/32833298847.html?spm=a2g0s.9042311.0.0.339e6c37LPkrLY).
-
-The keyset layout is insprired by an YMDK 40% layout find on Aliexpress (https://www.aliexpress.com/item/32825976887.html?spm=a2g0s.9042311.0.0.50644c4dsjfc44).
+It's a planck keyboard using an Adafruit Feather 32u4 Bluefruit LE (https://learn.adafruit.com/adafruit-feather-32u4-bluefruit-le/overview).
 
 # Dependencies
 
@@ -16,9 +12,9 @@ git clone https://github.com/qmk/qmk_firmware.git
 
 cd qmk-firmware
 
-git submodule add https://github.com/lgranie/qmk-lge42.git keyboards/handwired/lge42
+git submodule add https://github.com/lgranie/qmk-lge47.git keyboards/handwired/lge47
 
 make git-submodule
 
-make handwired/lge42:default
+make handwired/lge47:default
 

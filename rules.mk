@@ -36,4 +36,7 @@ HD44780_ENABLE = no         # Enable support for HD44780 based LCDs
 UNICODE_ENABLE = no         # Unicode
 UNICODEMAP_ENABLE = no      # ^^
 UCIS_ENABLE = no            # ^^
+
+TAP_DANCE_ENABLE = yes
+
 BLUETOOTH = AdafruitBLE

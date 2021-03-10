@@ -1,1 +1,1 @@
-# The default keymap for lge42
+# The default keymap for lge47
