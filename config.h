@@ -36,27 +36,27 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * Change this to how you wired your keyboard
  * COLS: AVR pins used for columns, left to right
- * ROWS: AVR pins used for rows, top to bottom
+tyre
  * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_COL_PINS { D7, B5, B6, B7, D6, C7, B1, F0, F1, F4, F5, F6 }
-#define MATRIX_ROW_PINS { D3, D2, B3, B2 }
+#define MATRIX_COL_PINS { B6, B5, D7, C6, D0, D1, D3, D2, F7, F0, F1, F4 }
+#define MATRIX_ROW_PINS { F6, F5, B1, B7 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */
 #define DIODE_DIRECTION COL2ROW
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+#define DEBOUNCE 0
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-#define TAPPING_TERM 100
+//#define TAPPING_TERM 100
 
 /* disable debug print */
 //#define NO_DEBUG
