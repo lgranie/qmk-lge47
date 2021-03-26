@@ -41,8 +41,8 @@ tyre
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-#define MATRIX_COL_PINS { B6, B5, D7, C6, D0, D1, D3, D2, F7, F0, F1, F4 }
-#define MATRIX_ROW_PINS { F6, F5, B1, B7 }
+#define MATRIX_COL_PINS { F0, F1, F4, F5, F6, F7, B7, B6, B5, D7, C6, D0 }
+#define MATRIX_ROW_PINS { D3, D2, C7, D6 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */
